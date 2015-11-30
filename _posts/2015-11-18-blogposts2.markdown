@@ -1,0 +1,49 @@
+---
+layout: post
+title: Robots and Humans
+date:   2015-11-18 13:26:18
+categories: jekyll update
+---
+
+###What is robots.txt and how have you configure it for your site?
+robots.txt is a text file that gives instruction to web robots aka web crawlers.
+You add the txt file in the root of your site.
+
+####My txt file:
+{% highlight ruby %}
+User-agent: *
+Disallow: /
+{% endhighlight %}
+
+This file won't allow any robots to visit any pages.
+
+Observe that this isn't in any way a protection from illegal malwares.
+
+###What is humans.txt and how have you configure it for your site?
+humans.txt is a file made for the users to be able to see who's the creator of the site.
+You configure it by simply add a text file in the root of your site including information about whoever that's behind the site.
+<http://humanstxt.org/>
+
+####My txt file:
+{% highlight ruby %}
+/* TEAM */
+
+Your title: Niclas Boklund
+
+Site: nb222ei@student.lnu.se
+
+Location: Kalmar, Sweden
+
+/* THANKS */
+
+Name: Niclas Boklund
+
+/* SITE */
+
+Last update: 2015/11/22
+
+Standards: HTML5, CSS3
+
+Components: sass, jekyll
+
+{% endhighlight %}

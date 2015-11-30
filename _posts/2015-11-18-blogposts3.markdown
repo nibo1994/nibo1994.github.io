@@ -1,0 +1,21 @@
+---
+layout: post
+title: Discus and Open Graph
+date:   2015-11-18 17:48:28
+categories: jekyll update
+---
+
+###How did you implements comments to blog posts?
+Blog comments have been implemented by using Discus. <https://disqus.com/>
+
+###What is Open Graph and how do you make use of it?
+Open Graph makes content easier to share on social medias. <http://ogp.me/>
+
+You can add Open graph by simply add meta tags.
+
+####My Open Graph meta tags:
+{% highlight ruby %}
+<meta property="og:title" content="Niclas Boklund" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="nibo1994.github.io" />
+{% endhighlight %}
